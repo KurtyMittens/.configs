@@ -1,1 +1,40 @@
+* {
+    border:        none;
+    border-radius: 0;
+    font-family:   Sans;
+    font-size:     15px;
+    box-shadow:    none;
+    text-shadow:   none;
+    transition-duration: 0s;
+}
 
+window {
+    color:     #FFFFFF;
+    background: transparent;
+}
+
+
+#workspaces {
+    margin: 0 0px;
+}
+
+#workspaces button {
+    padding: 0 2px;
+    background: transparent;
+    color: #ffffff;
+}
+
+#workspaces button.active {
+    padding: 0 2px;
+    background: transparent;
+    color: #0F1318;
+}
+#mode, #battery, #pulseaudio, #backlight, #custom-storage, #tray {
+   margin: 0px 10px 0px 0px;
+   min-width:  5px;
+}
+
+#clock {
+    margin:     0px 0px 0px 16px;
+    min-width:  5px;
+}
