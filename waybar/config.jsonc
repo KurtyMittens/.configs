@@ -1,9 +1,8 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "bottom", // Waybar position (top|bottom|left|right)
- 
-
-   "height": 32, // Waybar height
+    "height": 32, // Waybar height
+    "output": "eDP-1",
     // "width": 42, // Waybar width
     // Choose the order of the modules
     "modules-left": ["clock"],
@@ -45,9 +44,9 @@
             "on-scroll": 1,
             "on-click-right": "month",
 	        "format": {
-                "months": "<span color='#ffead3'><b>{}</b></span>",
-                "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
-                "today": "<span color='#ff6699'><b>{}</b></span>"
+                "months": "<span color='#8942ED'><b>{}</b></span>",
+                "weekdays": "<span color='#903EEE'><b>{}</b></span>",
+                "today": "<span color='#B644E6'><b>{}</b></span>"
             }}},
 
 
