@@ -12,18 +12,16 @@
     // Modules configuration
 
     "hyprland/workspaces": {
-    "format": "{icon}",
-    "on-click": "activate",
-    "persistent_workspaces": {
-      "1": [],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": []
-    },
-    "format-icons": {
-      "active": "  ",
-      "default": "  "}
+  "format": "{icon}",
+  "on-click": "activate",
+  "format-icons": {
+	"persistent":"",
+	"active":"󰈸"
+  },
+  "persistent-workspaces": {
+	"*": 5
+   },
+  "sort-by-number": true
     },
 
 
